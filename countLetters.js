@@ -13,3 +13,5 @@ const countLetters= function(sentence) {
 
 
 countLetters("hey there partner");
+
+

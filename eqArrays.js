@@ -6,9 +6,6 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
-
 const eqArrays = function(array1, array2) {
   if (array1.length === array2.length) {
     let checkTrue = true;
@@ -27,3 +24,4 @@ const eqArrays = function(array1, array2) {
 
 
 assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
+assertEqual(eqArrays(["hey", "hi"], ["hey", "hi"]), true)
