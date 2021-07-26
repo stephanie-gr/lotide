@@ -1,3 +1,4 @@
+
 const assertArraysEqual = function(array1, array2) {
   if (array1.length === array2.length) {
     let checkTrue = true;
@@ -18,6 +19,4 @@ const assertArraysEqual = function(array1, array2) {
   }  
 }
 
-assertArraysEqual([1, 2, 3], [1, 2, 3]);
-
-assertArraysEqual(["hello"], ["fixed"]);
+module.exports = assertArraysEqual;
